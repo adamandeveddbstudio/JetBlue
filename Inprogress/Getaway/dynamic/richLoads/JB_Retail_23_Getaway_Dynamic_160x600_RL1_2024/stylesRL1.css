@@ -165,7 +165,7 @@ video {
 #logo {
   width: 66px;
   height: auto;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 #partner_logo_container {
@@ -182,7 +182,7 @@ video {
 #partner_logo_img {
   /* width: 65px;
   height: 48px; */
-  width: 160px;
+  width: 140px;
   height: auto;
   object-fit: contain;
   object-position: left;

@@ -142,10 +142,13 @@ video {
   height: 29px;
   left: 20px;
   top: 195px; */
-  width: 77px;
+  /* width: 77px;
   height: 76px;
-  left: 42px;
-  top: 477px;
+  left: 42px; */
+  width: 160px;
+  height: 76px;
+  left: 0px;
+  top: 485px;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -153,28 +156,32 @@ video {
   /* justify-content: space-between; */
 }
 
-#logoHolder > *{
+#logoHolder>* {
   position: relative
 }
 
 #logo {
   width: 66px;
   height: auto;
+  margin-top: 20px;
 }
 
-#partner_logo_container{
-  width: 0;
-  height: 48px;
-  z-index: 1501;  
+#partner_logo_container {
+  /* width: 0;
+  height: 48px; */
+  width: 100%;
+  z-index: 1501;
   display: flex;
   align-items: center;
   justify-content: center;
   white-space: nowrap;
 }
 
-#partner_logo_img{
-  width: 65px;
-  height: 48px;
+#partner_logo_img {
+  /* width: 65px;
+  height: 48px; */
+  width: 140px;
+  height: auto;
   object-fit: contain;
   object-position: left;
 }
