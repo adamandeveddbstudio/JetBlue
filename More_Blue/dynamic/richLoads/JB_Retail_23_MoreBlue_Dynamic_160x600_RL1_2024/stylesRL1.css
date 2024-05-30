@@ -135,7 +135,7 @@ video {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 7px;
   line-height: 9px;
-  left: 9px;
+  left: 15px;
   width: 125px;
   color: #ffffff;
 }
@@ -187,7 +187,7 @@ video {
 #partner_logo_img {
   /* width: 65px;
   height: 48px; */
-  width: 140px;
+  width: 130px;
   height: auto;
   object-fit: contain;
   object-position: left;

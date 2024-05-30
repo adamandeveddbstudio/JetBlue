@@ -168,13 +168,9 @@ video {
 }
 
 #logoHolder {
-  /* width: 260px;
-  height: 29px;
-  left: 20px;
-  top: 195px; */
   width: 262px;
   height: 29px;
-  left: 20px;
+  left: 21px;
   top: 195px;
   display: flex;
   flex-direction: row-reverse;

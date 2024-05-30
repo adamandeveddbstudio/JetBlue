@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -86,18 +87,18 @@ video {
 }
 
 #endframeBg {
-  position: absolute; 
+  position: absolute;
   top: 458px;
   height: 600px;
-  width: 100%; 
+  width: 100%;
   background: #FFFFFF;
 }
 
 #pinkRibbon {
-  position: relative; 
+  position: relative;
   top: 0px;
   height: 11px;
-  width: 100%; 
+  width: 100%;
   background: #FC3388;
 }
 
@@ -139,14 +140,15 @@ video {
   width: 250px;
 }
 
-#terms1, #termsCopyright {
+#terms1,
+#termsCopyright {
   top: 572px;
 }
 
 #logoHolder {
-  width: 255px;
+  width: 251px;
   height: 65px;
-  left: 23px;
+  left: 27px;
   top: 488px;
   display: flex;
   flex-direction: row-reverse;
@@ -173,7 +175,7 @@ video {
 
 #partner_logo_img {
   width: 100%;
-    height: 100%;
+  height: 100%;
   object-fit: contain;
   object-position: left;
 }
@@ -185,7 +187,7 @@ video {
   top: 244px;
 }
 
-.scaleSmall{
+.scaleSmall {
   transform: scale(0.4)
 }
 
