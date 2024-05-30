@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -93,18 +94,18 @@ video {
 }
 
 #endframeBg {
-  position: absolute; 
+  position: absolute;
   left: 504px;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   background: #FFFFFF;
 }
 
 #pinkRibbon {
-  position: relative; 
+  position: relative;
   left: 0px;
   height: 90px;
-  width: 9px; 
+  width: 9px;
   background: #FC3388;
 }
 
@@ -115,6 +116,7 @@ video {
   left: 513px;
   top: 0px;
 }
+
 #h1,
 #h2 {
   width: 242px;
@@ -173,44 +175,46 @@ video {
 } */
 
 #logoHolder {
-  width: 179px;
-  height: 31px;
-  left: 531px;
-  top: 29px;
+  width: 180px;
+  height: 60px;
+  right: 20px;
+  top: 10px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   /* justify-content: space-between; */
 }
 
-#logoHolder > *{
+#logoHolder>* {
   position: relative
 }
 
 #logo {
-  width: 73px;
+  width: 60px;
   height: auto;
+  margin-top: 5px;
 }
 
-#partner_logo_container{
-  width: 0;
-  height: 31px;
-  z-index: 1501;  
+#partner_logo_container {
+  width: auto;
+  height: auto;
+  z-index: 1501;
   display: block;
   white-space: nowrap;
 }
 
-#partner_logo_img{
-  max-width: 77px;
-  height: 31px;
+#partner_logo_img {
+  position: relative;
+  width: 160px;
+  height: 100%;
   object-fit: contain;
   object-position: left;
 }
 
 /* Creative */
 
-.scaleSmall{
+.scaleSmall {
   transform: scale(0.4);
 }
 
@@ -223,11 +227,11 @@ video {
   height: 240px;
   top: -90px;
   background-color: #0000AA;
-  background: rgb(0,0,170);
-  background: -moz-linear-gradient(90deg, rgba(0,0,170,1) 75%, rgba(255,255,255,0) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(0,0,170,1) 75%, rgba(255,255,255,0) 100%);
-  background: linear-gradient(90deg, rgba(0,0,170,1) 75%, rgba(255,255,255,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000aa",endColorstr="#ffffff",GradientType=1);
+  background: rgb(0, 0, 170);
+  background: -moz-linear-gradient(90deg, rgba(0, 0, 170, 1) 75%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 170, 1) 75%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 170, 1) 75%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000aa", endColorstr="#ffffff", GradientType=1);
   transform: rotate(30deg);
   transform-origin: 50% 50%;
 }
