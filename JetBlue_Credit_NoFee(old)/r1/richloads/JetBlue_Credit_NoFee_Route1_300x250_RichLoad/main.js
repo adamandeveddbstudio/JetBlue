@@ -41,7 +41,7 @@ function animate() {
     .to('#topPanel, #pinkBar', 0.5, { y: "-=58" }, 'start+=0.5')
 
     .to(['#copy1, #cta, #terms0'], 0.5, { autoAlpha: 1 }, '-=0.25')
-    .to(['#copy1'], 0.2, { autoAlpha: 0 }, '+=2.5')
+    .to(['#copy1,#terms0'], 0.2, { autoAlpha: 0 }, '+=2.5')
 
     .to(['#copy2a'], 0.2, { autoAlpha: 1 }, '+=0')
     .to(['#copy2b'], 0.3, { autoAlpha: 1 }, '+=0')
@@ -56,7 +56,6 @@ function animate() {
     .to(['#copy4a, #copy4b'], 0.1, { autoAlpha: 0 }, '+=2.5')
 
     .to('#topPanel, #pinkBar', 0.5, { y: "-=182" }, '+=0')
-    .to('#terms0', 0, { autoAlpha: 0 }, '-=0.5')
 
     .to('#cta', 0.15, { scale: 1.1, ease: Power1.easeInOut, rotationZ: 0.1, force3D: true }, '+=0')
     .to('#cta', 0.15, { scale: 1.0, ease: Power1.easeInOut, rotationZ: 0.1, force3D: true }, '+=0')
