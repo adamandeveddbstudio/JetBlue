@@ -5,7 +5,7 @@ FT.manifest({
 	"clickTagCount": 3,
 	"hideBrowsers": ["ie8"],
 	"richLoads": [
-		{ "name": "RL1", "src": "JetBlue_Credit_NoFee_R2_300x250_RichLoad" },
+		{ "name": "RL1", "src": "JetBlue_Credit_NoFee_Route2_300x250_RichLoad_REV" },
 	],
 	"instantAds": [
 		{ "name": "RL1", "type": "richLoad" },
